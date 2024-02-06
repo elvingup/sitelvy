@@ -210,3 +210,7 @@ Route::view('/blade/lacos/while', 'blade/lacos/while');
 Route::get('/blog', function(){
     return view('blog/home');
 });
+
+Route::get('/blog/artigos', function(){
+    return view('blog/artigos');
+});
