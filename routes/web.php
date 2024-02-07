@@ -211,6 +211,6 @@ Route::get('/blog', function(){
     return view('blog/home');
 });
 
-Route::get('/blog/artigos', function(){
+Route::get('/blog', function(){
     return view('blog/artigos');
 });
